@@ -4,20 +4,20 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    background-color: #f4f4f4;
+    background-color: #282828;
 }
 
 .calculator {
     width: 250px;
-    background: white;
+    background: #000000;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgb(0 0 0 / 32%);
     text-align: center;
 }
 
 #display {
-    width: 100%;
+    width: 220px;
     height: 50px;
     font-size: 1.5em;
     text-align: right;
@@ -41,19 +41,19 @@ button {
     border: none;
     cursor: pointer;
     border-radius: 5px;
-    background: #eee;
+    background: #cbc4c4;
     transition: 0.3s;
 }
 
 button:hover {
-    background: #ccc;
+    background: #000000;
 }
 
 button:nth-child(1) {
-    background: #ff4d4d;
+    background: #a40101;
     color: white;
 }
 
 button:nth-child(1):hover {
-    background: #cc0000;
+    background: #000000;
 }
