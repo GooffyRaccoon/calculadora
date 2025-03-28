@@ -50,7 +50,7 @@ button:hover {
 }
 
 button:nth-child(1) {
-    background: #a40101;
+    background: #000;
     color: white;
 }
 
